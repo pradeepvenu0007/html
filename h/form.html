@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>
+    order online
+</title>
+
+<body style="background-image: url(del.jpg);background-repeat: no-repeat">
+    <img src="logo.png" alt="hotel logo" style="float:left;width:250px;height:200px;">
+    <img src="iso.jpeg" alt="iso logo" style="float:right;width:250px;height:200px;">
+    <h1 id="hd" style="">Hotel Sapadu Raman</h1>
+    <h1 style="padding:0px; text-align: center;background-color: purple">
+        <a id="a" href="index.html">Home</a> <a id="a" href="branch.html">Branches</a> <a id="a" href="menu.html">Menu</a> <a id="a" href="contact.html">Contact Us</a>
+    </h1>
+
+
+    <form style="font-size: xx-large" oninput="x.value=parseInt(a.value)" autocomplete="on">
+        <br> Hotel name:<br>
+        <input type="text" value="Sapadu Raman" readonly> <br>
+        <br>First name:<br>
+        <input type="text" name="firstname" autofocus>
+        <br> Last name:<br>
+        <input type="text" name="lastname"><br> EMail:
+        <BR>
+        <input type="email" name="email"><br>Mobile No.
+        <br><input type="tel" pattern="[0-9]{10}">
+        <br>
+        <fieldset>
+            <legend>
+                BRANCH:
+            </legend>
+            <input type="radio" name="BRANCH" value="chennai"> Ambathur<br>
+            <input type="radio" name="BRANCH" value="chennai"> Avadi<br>
+            <input type="radio" name="BRANCH" value="chennai"> Tambaram<br>
+
+            <input type="radio" name="BRANCH" value="chennai"> Poothamali<br>
+            <input type="radio" name="BRANCH" value="Kanchipuram"> Kanchipuram<br>
+            <input type="radio" name="BRANCH" value="Vellore"> Vellore<br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Food</legend>
+            <input type="checkbox">Chicken Biriyani <input type="number" name="quantity" min="1"><br>
+            <input type="checkbox">Mutton Biriyani<input type="number" name="quantity" min="1"><br>
+            <input type="checkbox">Fish Biriyani<input type="number" name="quantity" min="1"><br>
+            <input type="checkbox">Natukozhhi Biriyani<input type="number" name="quantity" min="1"><br>
+            <input type="checkbox">Prawn Biriyani<input type="number" name="quantity" min="1"><br>
+            <input type="checkbox">Hyderabadi biryani<input type="number" name="quantity" min="1"><br>
+            <input type="checkbox">Ambur biryani<input type="number" name="quantity" min="1"><br>
+            <input type="checkbox">Dindigul Thalapakati biryani<input type="number" name="quantity" min="1"><br>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Drinks
+            </legend>
+            <select size="4" multiple>
+                    <option >Tea</option>
+                    <option >Coffee</option>
+                    <option >Milk</option>
+                    <option >Jucie</option>
+                  </select>
+        </fieldset>
+        <br> Rate Us<br>
+        <input type="range" id="a" min="1" max="5">
+        <output name="x" for="a b"></output><br>
+        <button type="button" onclick="alert('Order Placed!')">Submit</button>
+
+
+</body>
+
+</html>

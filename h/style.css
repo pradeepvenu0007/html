@@ -1,0 +1,63 @@
+#a {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    text-align: center;
+}
+
+#b {
+    color: rgba(217, 255, 0, 0.808);
+    font-size: 300%;
+}
+
+#hd {
+    font-size: 400%;
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(0, 255, 76);
+    padding: 0px;
+}
+
+#bg {
+    background-repeat: repeat;
+    background-color: black;
+    padding: 10px;
+}
+
+#title {
+    font-size: 75px;
+    text-align: center;
+    color: darkgreen;
+}
+
+#menu {
+    padding: 10px;
+    text-align: center;
+    color:
+}
+
+#branch {
+    padding: 20px;
+    background-color: wheat;
+}
+
+#mm {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    margin: 0px;
+    text-align: center;
+}
+
+#ul {
+    color: palegreen
+}
+
+table,
+th,
+td {
+    border: 5px solid rgba(29, 161, 170, 0.63);
+    border-collapse: collapse;
+    background-color: brown;
+    padding: 10px
+}
